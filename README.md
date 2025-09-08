@@ -59,6 +59,6 @@ This simulates how enterprise SOCs monitor Active Directory, investigate alerts,
 **From the Kali VM, run Nmap scans to generate reconnaissance telemetry:**  
 ![AD Install 1](https://i.imgur.com/WsiDLqf.png)  
 
-**Observe Snort alerts a Nmap scan is happening, "leaking information":**  
+**Observe Snort alerts a Nmap scan is happening, "leaking information", Use tcpdump -w /tmp/attack_capture.pcap host <attacker-ip> and host <target-ip> or tshark to save packet captures for analyst review:**  
 ![AD Install 1](https://i.imgur.com/Wmu0AOb.png)  
 
