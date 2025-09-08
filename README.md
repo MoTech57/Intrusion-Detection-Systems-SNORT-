@@ -1,4 +1,4 @@
-# 🖥️ Active Directory Monitoring Lab 🖥️  
+# 🚔Intrusion Detection Systems (SNORT) Lab🚔
 
 ## 📖 Description  
 This lab demonstrates **Active Directory security monitoring** and **incident response** using **Splunk** and **SOAR automation (Shuffle)**.  
@@ -35,17 +35,15 @@ This simulates how enterprise SOCs monitor Active Directory, investigate alerts,
 
 ## 🔄 Workflow  
 
-**Lab Diagram and Playbook Layout:**  
-![Lab Diagram](https://i.imgur.com/t0cOZeZ.jpeg)  
+**Install Snort:**  
+![Snort](https://i.imgur.com/YJ0X1Gt.png)  
 
-**Provisioning 3 servers (2 Windows, 1 Ubuntu):**  
-![VM Setup](https://i.imgur.com/NtiKzxm.png)  
+**With Ifconfig, make sure both machines are on the same network:**  
+![Ifconfig](https://i.imgur.com/NWT39Dt.png)  
 
-**Windows Test Machine (55GB):**  
-![Windows Test Machine](https://i.imgur.com/ZZDNoGm.png)  
-
-**Active Directory Server (80GB):**  
-![AD Server](https://i.imgur.com/eewx2iC.png)  
+**Use a text editor to view Snort.conf if error occurs you must give rwx permisions:**  
+![AD Server](https://i.imgur.com/rRFOQmb.png)
+![AD Server](https://i.imgur.com/rMe01rs.png)  
 
 **Splunk Server (Ubuntu 80GB):**  
 ![Splunk Server](https://i.imgur.com/eewx2iC.png)  
