@@ -57,9 +57,9 @@ This simulates how enterprise SOCs monitor Active Directory, investigate alerts,
 **Start Snort:**  
 ![IP Config 1](https://i.imgur.com/30HCEvR.png)  
 
-**On attacking machine use Nmap to run ip on target:**  
+**On attacking machine, use Nmap to run a scan on the target:**  
 ![AD Install 1](https://i.imgur.com/WsiDLqf.png)  
 
-**Snorts alerts that theres a nmap scan happeing leaking informatiom:**  
+**Snorts alerts that there's a Nmap scan happening, leaking information:**  
 ![AD Install 1](https://i.imgur.com/Wmu0AOb.png)  
 
