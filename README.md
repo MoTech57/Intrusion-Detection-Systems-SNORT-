@@ -36,32 +36,33 @@ This simulates how enterprise SOCs monitor Active Directory, investigate alerts,
 ## 🔄 Workflow  
 
 **Install Snort:**  
-![Snort](https://i.imgur.com/YJ0X1Gt.png)  
+![Snort](https://i.imgur.com/Vju1f6s.png)  
 
 **With Ifconfig, make sure both machines are on the same network:**  
 ![Ifconfig](https://i.imgur.com/NWT39Dt.png)  
 
-**Use a text editor to view Snort.conf if error occurs you must give rwx permisions:**  
+**Use a text editor to view Snort.conf if error occurs, you must give rwx permissions:**  
 ![AD Server](https://i.imgur.com/rRFOQmb.png)
 ![AD Server](https://i.imgur.com/rMe01rs.png)  
+![AD Server](https://i.imgur.com/s9mkG0u.png) 
 
-**Splunk Server (Ubuntu 80GB):**  
-![Splunk Server](https://i.imgur.com/eewx2iC.png)  
+**Using a text editor, open snort.conf and change ipvar network lan range, also view different rules towards the bottom:**  
+![Splunk Server](https://i.imgur.com/VpB66FT.png)  
+![Splunk Server](https://i.imgur.com/tSRqn6S.png)  
 
-**Firewall Group Creation & Rules:**  
-![Firewall Group](https://i.imgur.com/oO1qXt8.png)  
-![Firewall Rules](https://i.imgur.com/xEYVGXc.png)  
-
+**Validate configuration:**  
+![Firewall Rules](https://i.imgur.com/NfMKOdz.png)  
+![Firewall Group](https://i.imgur.com/Ba5ByM5.png)  
 **Remote Access (RDP/SSH):**  
 ![RDP](https://i.imgur.com/bc14zKk.png)  
 ![SSH](https://i.imgur.com/UVIlZBA.png)  
 
-**Verifying IP addresses (`ip a` / `ipconfig`):**  
-![IP Config 1](https://i.imgur.com/O4kUfQB.png)  
-![IP Config 2](https://i.imgur.com/gAefKCd.png)  
-![IP Config 3](https://i.imgur.com/ycDLNpH.png)  
+**Start Snort:**  
+![IP Config 1](https://i.imgur.com/30HCEvR.png)  
 
-**Installing and configuring Active Directory (promote to Domain Controller):**  
-![AD Install 1](https://i.imgur.com/gfhrgWh.png)  
-![AD Install 2](https://i.imgur.com/OWBlaxS.png)  
-![AD Install 3](https://i.imgur.com/9Ee5cVJ.png)  
+**On attacking machine use Nmap to run ip on target:**  
+![AD Install 1](https://i.imgur.com/WsiDLqf.png)  
+
+**Snorts alerts that theres a nmap scan happeing leaking informatiom:**  
+![AD Install 1](https://i.imgur.com/Wmu0AOb.png)  
+
