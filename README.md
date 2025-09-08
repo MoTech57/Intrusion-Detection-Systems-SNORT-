@@ -53,9 +53,6 @@ This simulates how enterprise SOCs monitor Active Directory, investigate alerts,
 **Validate configuration:**  
 ![Firewall Rules](https://i.imgur.com/NfMKOdz.png)  
 ![Firewall Group](https://i.imgur.com/Ba5ByM5.png)  
-**Remote Access (RDP/SSH):**  
-![RDP](https://i.imgur.com/bc14zKk.png)  
-![SSH](https://i.imgur.com/UVIlZBA.png)  
 
 **Start Snort:**  
 ![IP Config 1](https://i.imgur.com/30HCEvR.png)  
